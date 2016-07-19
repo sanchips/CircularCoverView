@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="while set cover's color different with bg-color,different conner radius" />
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light" />
+
+        <com.zrp.library.CircularCoverView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cover_color="@android:color/holo_blue_light"
+            app:left_bottom_radius="15dp"
+            app:left_top_radius="30dp"
+            app:right_bottom_radius="6dp"
+            app:right_top_radius="10dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="while set cover's color with bg-color" />
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test1" />
+
+        <com.zrp.library.CircularCoverView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cover_color="@android:color/white"
+            app:left_bottom_radius="9dp"
+            app:left_top_radius="9dp"
+            app:right_bottom_radius="9dp"
+            app:right_top_radius="9dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- circular cover view -->
+    <declare-styleable name="CircularCoverView">
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="cover_color" format="color" />
+    </declare-styleable>
+</resources>
