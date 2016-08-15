@@ -1,6 +1,6 @@
 It's just a cover view of other views.You can set radians and color by self.
 
-<img src="./screenshot/device-2016-07-19-170200.png" style="display:block;width:50%;margin:0 auto"/>
+<img src="./screenshot/device-2016-07-19-170200.png" width="380" height="600"/>
 
 Useage
 ---
